@@ -16,11 +16,11 @@ function ninjaBabySelector() {
 }
 
 function divSelector() {
-  let divSelected = $()
+  let divSelected = $('.pics')
   return divSelected
 }
 
 function firstListItem() {
-  let firstLiSelected = $()
+  let firstLiSelected = $(div li:first-child)
   return firstLiSelected
 }
