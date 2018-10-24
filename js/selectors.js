@@ -21,6 +21,6 @@ function divSelector() {
 }
 
 function firstListItem() {
-  let firstLiSelected = $(div li:first-child)
+  let firstLiSelected = $('div li:first-child')
   return firstLiSelected
 }
