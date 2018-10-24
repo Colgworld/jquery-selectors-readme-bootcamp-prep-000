@@ -14,3 +14,13 @@ function ninjaBabySelector() {
   let ninjaPic = $('#baby-ninja')
   return ninjaPic
 }
+
+function divSelector() {
+  let divSelected = $()
+  return divSelected
+}
+
+function firstListItem() {
+  let firstLiSelected = $()
+  return firstLiSelected
+}
